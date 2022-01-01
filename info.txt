@@ -1,0 +1,6 @@
+    //weather
+  const apikey="2c2ffbeb2d35c43bb2d68ea9f3284358";
+
+     //mailchamp
+dac743d5f28ac27fbb049b85091f02d3-us20->key
+d9003f1880. ->audience id
