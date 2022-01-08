@@ -7,7 +7,7 @@ body{
 
 #home {
  /* The image used */
- background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),
+ background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),
                    url("weather_img.jpg");
 
 
@@ -19,12 +19,13 @@ body{
  background-size: cover;
 }
 #fr{
-  padding-top: 260px;
-  padding-bottom: 310px;
+  padding-top: 220px;
+  padding-bottom: 290px;
   text-align: center;
 }
 #texti{
   font-size: 2em;
+  color: rgb(143, 27, 27);
 
 
 }
@@ -32,6 +33,7 @@ body{
 .typing{
   position: relative;
   margin-left: 10px;
+  color: rgb(61, 4, 4);
 
 }
 .typing::after{
@@ -42,6 +44,7 @@ body{
   height:100%;
   border-right: 3px solid white;
   animation: blink 0.5s infinite ease;
+  
 }
 @keyframes blink {
   0%{
