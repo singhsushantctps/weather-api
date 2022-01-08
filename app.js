@@ -1,4 +1,4 @@
-const texts =["Cityname","or","Towname"];
+const texts =["Cityname","or","Town-name"];
 
 let count = 0;
 let index = 0;
