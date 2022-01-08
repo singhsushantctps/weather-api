@@ -1,9 +1,17 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+
 #home {
  /* The image used */
- background-image: url("weather_img.jpg");
+ background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),
+                   url("weather_img.jpg");
 
 
- height: 100%;
+
 
  /* Center and scale the image nicely */
  background-position: center;
@@ -11,7 +19,37 @@
  background-size: cover;
 }
 #fr{
-  padding-top: 280px;
-  padding-bottom: 290px;
+  padding-top: 260px;
+  padding-bottom: 310px;
   text-align: center;
+}
+#texti{
+  font-size: 2em;
+
+
+}
+
+.typing{
+  position: relative;
+  margin-left: 10px;
+
+}
+.typing::after{
+  content: "";
+  position: absolute;
+  right:-5px;
+  width:5px;
+  height:100%;
+  border-right: 3px solid white;
+  animation: blink 0.5s infinite ease;
+}
+@keyframes blink {
+  0%{
+    opacity:0;
+
+  }
+  100%{
+    opacity: 1;
+  }
+
 }
