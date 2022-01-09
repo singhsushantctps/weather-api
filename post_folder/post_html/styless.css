@@ -1,96 +1,23 @@
 body{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   height: 100%;
 }
-
-#home {
- /* The image used */
- background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),
-                   url("weather_img.jpg");
-
-
-
-
- /* Center and scale the image nicely */
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
-}
-#fr{
-  padding-top: 220px;
-  padding-bottom: 290px;
-  text-align: center;
-}
-#texti{
-  font-size: 2em;
-  color: rgb(41, 19, 19);
-  margin-bottom: 20px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-
-}
-
-.typing{
-  position: relative;
-  margin-left: 10px;
-  color: rgb(68, 5, 42);
-
-}
-.typing::after{
-  content: "";
-  position: absolute;
-  right:-5px;
-  width:5px;
-  height:100%;
-  border-right: 3px solid white;
-  animation: blink 0.5s infinite ease;
-
-}
-@keyframes blink {
-  0%{
-    opacity:0;
-
-  }
-  100%{
-    opacity: 1;
-  }
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #clear {
     /* The image used */
     background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),
-                      url("/post_folder/Image/clear.jpg");
+                      url("Image/clear.jpg");
   /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    font-size: 4em;
-    color: red;
    }
    #cloud {
        /* The image used */
        background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),
-                         url("/post_folder/Image/cloudy.jpg");
+                         url("Image/cloudy.jpg");
      /* Center and scale the image nicely */
        background-position: center;
        background-repeat: no-repeat;
@@ -100,7 +27,7 @@ body{
       #rain {
           /* The image used */
           background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),
-                            url("/post_folder/Image/rain.jpg");
+                            url("Image/rain.jpg");
         /* Center and scale the image nicely */
           background-position: center;
           background-repeat: no-repeat;
@@ -110,7 +37,7 @@ body{
          #snow {
              /* The image used */
              background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),
-                               url("/post_folder/Image/snow.jpg");
+                               url("Image/snow.jpg");
            /* Center and scale the image nicely */
              background-position: center;
              background-repeat: no-repeat;
@@ -120,7 +47,7 @@ body{
             #thunderstorm {
                     /* The image used */
                     background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),
-                                      url("/post_folder/Image/thunder.jpg");
+                                      url("Image/thunder.jpg");
                   /* Center and scale the image nicely */
                     background-position: center;
                     background-repeat: no-repeat;
@@ -130,7 +57,7 @@ body{
              #drizzle {
                        /* The image used */
                        background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),
-                                         url("/post_folder/Image/drzzle.jpg");
+                                         url("Image/drzzle.jpg");
                      /* Center and scale the image nicely */
                        background-position: center;
                        background-repeat: no-repeat;

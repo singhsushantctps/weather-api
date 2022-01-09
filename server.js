@@ -19,8 +19,14 @@ app.post("/",function(req,res){
     response.on("data",function(data){
       const x = JSON.parse(data);
       const temp = x.main.temp;
+      const cond = x.weather[0].main;
       console.log(temp);
-      res.send("today temperature of "+c_name+" is "+temp);
+      console.log(cond);
+      res.sendFile(__dirname+"/post_folder/post_html/thunderstorm.html");
+
+
+
+
     })
   })
 })
