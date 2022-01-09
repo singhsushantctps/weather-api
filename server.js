@@ -22,7 +22,25 @@ app.post("/",function(req,res){
       const cond = x.weather[0].main;
       console.log(temp);
       console.log(cond);
+      if(cond === "Thunderstorm"){
       res.sendFile(__dirname+"/post_folder/post_html/thunderstorm.html");
+      }
+      else if(cond === "Drizzle"){
+        res.sendFile(__dirname+"/post_folder/post_html/drizzle.html");
+        }
+        else if(cond === "Rain"){
+          res.sendFile(__dirname+"/post_folder/post_html/rain.html");
+          }
+          else if(cond === "Snow"){
+            res.sendFile(__dirname+"/post_folder/post_html/snow.html");
+            }
+            else if(cond === "Clouds"){
+              res.sendFile(__dirname+"/post_folder/post_html/cloud.html");
+              }
+              else{
+                res.sendFile(__dirname+"/post_folder/post_html/clear.html");
+              }
+        
 
 
 
