@@ -5,24 +5,15 @@ body{
   height: 100%;
 }
 
-#home {
- /* The image used */
- background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),
-                   url("weather_img.jpg");
-
-
-
-
- /* Center and scale the image nicely */
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
-}
-#fr{
+ 
+ #fr{
   padding-top: 220px;
   padding-bottom: 290px;
   text-align: center;
-}
+  
+  z-index: 5;
+  
+} 
 #texti{
   font-size: 2em;
   color: rgb(41, 19, 19);
@@ -59,6 +50,27 @@ body{
 
 }
 
+ .container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  padding:0;
+  margin:0;
+  left: 0px;
+  top: 0px;
+  z-index: -1000; 
+  overflow:hidden;
+  
+  }
+  
+  .videoPlayer {
+      min-height: 100%;
+      min-width:100%; 
+  position:absolute;
+  bottom:0;
+  left:0;
+  }
+ 
 
 
 
