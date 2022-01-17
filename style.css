@@ -15,6 +15,7 @@ body{
   
 } 
 #texti{
+  font-weight: lighter;
   font-size: 3em;
   color: rgb(41, 19, 19);
   margin-bottom: 20px;
@@ -34,8 +35,8 @@ body{
   position: absolute;
   right:-5px;
   width:5px;
-  height:100%;
-  border-right: 3px solid white;
+  height:90%;
+  border-right: 3px solid black;
   animation: blink 0.5s infinite ease;
 
 }
@@ -69,6 +70,7 @@ body{
   position:absolute;
   bottom:0;
   left:0;
+  
   }
  
   #cityinput{
