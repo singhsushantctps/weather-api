@@ -34,10 +34,12 @@ body{
   content: "";
   position: absolute;
   right:-5px;
-  width:5px;
-  height:90%;
-  border-right: 3px solid black;
+  width:3px;
+   height:80%; 
+  border-right: 2px solid rgb(36, 30, 30);
   animation: blink 0.5s infinite ease;
+  position: relative;
+  top:6px;
 
 }
 @keyframes blink {
